@@ -1,0 +1,38 @@
+ php artisan aimeos:jobs order/email/payment  --- local la payment aakum.
+
+
+git stash pop  ---
+
+git stash   ---
+
+php artisan view:clear ---
+
+php artisan view:clear  --
+
+php artisan aimeos:jobs index/rebuild ---
+
+php artisan aimeos:jobs product/import/csv uae ---
+
+php artisan aimeos:setup --
+
+php artisan aimeos:setup uae --option=setup/default/demo:1 ---
+
+php artisan aimeos:jobs setup uae --option=setup/default/demo:1 ----
+
+php artisan aimeos:jobs product/import/csv -- 
+
+php artisan aimeos:jobs supplier/import/csv --
+
+php artisan aimeos:jobs order/email/delivery -- local la delivery email aakum
+
+php artisan up
+
+php artisan down
+
+artisan serve
+
+php artisan
+
+php artisan about   ------ Application overview
+
+sh bash/push2staging.sh ---- main branch push
